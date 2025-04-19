@@ -1,7 +1,8 @@
 {
-  "name": "Code-Hono",
+  "name": "g001",
   "type": "module",
   "scripts": {
+    "start": "node --watch --experimental-strip-types --experimental-transform-types src/index.ts",
     "dev": "tsx watch src/index.ts"
   },
   "dependencies": {
